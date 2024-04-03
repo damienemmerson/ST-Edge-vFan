@@ -1,0 +1,6 @@
+name: vDeviceCreator
+components:
+- id: main
+  capabilities:
+  - id: smoothoption15782.createDevice
+    version: 1

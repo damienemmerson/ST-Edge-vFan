@@ -1,0 +1,4 @@
+name: 'ST-Edge-vDeviceCreator'
+packageKey: 'ST-Edge-vDeviceCreator'
+permissions:
+  discovery: {}

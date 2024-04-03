@@ -1,0 +1,13 @@
+# edgeFan-profile
+name: vFan
+components:
+- id: main
+  capabilities:
+  - id: fanSpeed
+    version: 1
+  categories:
+  - name: Fan
+metadata:
+  mnmn: SmartThingsCommunity
+  vid: 82dc659c-ca9b-3663-a544-962aebd5d10d
+

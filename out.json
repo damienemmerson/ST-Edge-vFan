@@ -1,0 +1,244 @@
+{
+    "mnmn": "SmartThingsCommunity",
+    "vid": "82dc659c-ca9b-3663-a544-962aebd5d10d",
+    "version": "0.0.1",
+    "type": "profile",
+    "dashboard": {
+        "states": [
+            {
+                "component": "main",
+                "capability": "fanSpeed",
+                "version": 1,
+                "idx": 0,
+                "group": "main",
+                "values": [
+                    {
+                        "alternatives": [
+                            {
+                                "key": "0",
+                                "value": "Off",
+                                "type": "inactive"
+                            },
+                            {
+                                "key": "1",
+                                "value": "Snail",
+                                "type": "active"
+                            },
+                            {
+                                "key": "2",
+                                "value": "Low",
+                                "type": "active"
+                            },
+                            {
+                                "key": "3",
+                                "value": "Medium",
+                                "type": "active"
+                            },
+                            {
+                                "key": "4",
+                                "value": "High",
+                                "type": "active"
+                            },
+                            {
+                                "key": "5",
+                                "value": "Max",
+                                "type": "active"
+                            },
+                            {
+                                "key": "6",
+                                "value": "Warp",
+                                "type": "active"
+                            }
+                        ]
+                    }
+                ],
+                "composite": false
+            }
+        ],
+        "actions": [
+            {
+                "component": "main",
+                "capability": "fanSpeed",
+                "version": 1,
+                "idx": 0,
+                "group": "main",
+                "inline": null
+            }
+        ],
+        "basicPlus": []
+    },
+    "detailView": [
+        {
+            "component": "main",
+            "capability": "fanSpeed",
+            "version": 1,
+            "values": [
+                {
+                    "key": "setFanSpeed",
+                    "enabledValues": [],
+                    "label": "Fan",
+                    "alternatives": [
+                        {
+                            "key": "0",
+                            "value": "Off",
+                            "type": "active"
+                        },
+                        {
+                            "key": "1",
+                            "value": "Snail",
+                            "type": "active"
+                        },
+                        {
+                            "key": "2",
+                            "value": "Low",
+                            "type": "active"
+                        },
+                        {
+                            "key": "3",
+                            "value": "Medium",
+                            "type": "active"
+                        },
+                        {
+                            "key": "4",
+                            "value": "High",
+                            "type": "active"
+                        },
+                        {
+                            "key": "5",
+                            "value": "Max",
+                            "type": "active"
+                        },
+                        {
+                            "key": "6",
+                            "value": "Warp",
+                            "type": "active"
+                        }
+                    ],
+                    "range": [
+                        0,
+                        6
+                    ]
+                }
+            ],
+            "patch": []
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "component": "main",
+                "capability": "fanSpeed",
+                "version": 1,
+                "values": [
+                    {
+                        "key": "setFanSpeed",
+                        "enabledValues": [],
+                        "label": "Fan",
+                        "alternatives": [
+                            {
+                                "key": "0",
+                                "value": "Off",
+                                "type": "active"
+                            },
+                            {
+                                "key": "1",
+                                "value": "Snail",
+                                "type": "active"
+                            },
+                            {
+                                "key": "2",
+                                "value": "Low",
+                                "type": "active"
+                            },
+                            {
+                                "key": "3",
+                                "value": "Medium",
+                                "type": "active"
+                            },
+                            {
+                                "key": "4",
+                                "value": "High",
+                                "type": "active"
+                            },
+                            {
+                                "key": "5",
+                                "value": "Max",
+                                "type": "active"
+                            },
+                            {
+                                "key": "6",
+                                "value": "Warp",
+                                "type": "active"
+                            }
+                        ],
+                        "range": [
+                            0,
+                            6
+                        ]
+                    }
+                ],
+                "patch": [],
+                "exclusion": []
+            }
+        ],
+        "actions": [
+            {
+                "component": "main",
+                "capability": "fanSpeed",
+                "version": 1,
+                "values": [
+                    {
+                        "key": "setFanSpeed",
+                        "enabledValues": [],
+                        "label": "Fan",
+                        "alternatives": [
+                            {
+                                "key": "0",
+                                "value": "Off",
+                                "type": "active"
+                            },
+                            {
+                                "key": "1",
+                                "value": "Snail",
+                                "type": "active"
+                            },
+                            {
+                                "key": "2",
+                                "value": "Low",
+                                "type": "active"
+                            },
+                            {
+                                "key": "3",
+                                "value": "Medium",
+                                "type": "active"
+                            },
+                            {
+                                "key": "4",
+                                "value": "High",
+                                "type": "active"
+                            },
+                            {
+                                "key": "5",
+                                "value": "Max",
+                                "type": "active"
+                            },
+                            {
+                                "key": "6",
+                                "value": "Warp",
+                                "type": "active"
+                            }
+                        ],
+                        "range": [
+                            0,
+                            6
+                        ]
+                    }
+                ],
+                "patch": [],
+                "exclusion": []
+            }
+        ]
+    },
+    "presentationId": "82dc659c-ca9b-3663-a544-962aebd5d10d",
+    "manufacturerName": "SmartThingsCommunity"
+}

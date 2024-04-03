@@ -1,0 +1,40 @@
+{
+    "dashboard": {
+        "states": [],
+        "actions": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setDeviceType",
+                    "alternatives": [
+                        {
+                            "key": "fan",
+                            "value": "fan",
+                            "type": "active"
+                        }
+                    ]
+                },
+                "state": {
+                    "value": "deviceType.value",
+                    "alternatives": [
+                        {
+                            "key": "fan",
+                            "value": "fan",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [],
+        "actions": []
+    },
+    "id": "smoothoption15782.createDevice",
+    "version": 1
+}
